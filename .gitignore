@@ -1,0 +1,10 @@
+env/
+venv/
+.venv/
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+student-lifestyle-and-stress-dataset.csv
+ 
