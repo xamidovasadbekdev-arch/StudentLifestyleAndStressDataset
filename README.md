@@ -6,8 +6,8 @@ The steps to do end-to-end project:
 5. Feature Engineering ✅
 6. Train Model ✅
 7. Save model with joblib ✅
-8. Fastapi Wrapping and Dockerizing
-9. Deploying
+8. Fastapi Wrapping and Dockerizing ✅
+9. Deploying ✅
 
 I am doing my first real end-to-end project. Most people quit after doing some steps and cannot reach to the end of the pipeline. 
 I got real data from Kaggle called Student Lifestyle and Stress Dataset. 
@@ -55,3 +55,6 @@ For training the model, I created steps to do my work:
 Initially, I got the ready data I've cleaned and I chose the classification algorithm `RandomForestClassifier` for my project. Then, I split the data into two parts: 80/20 for training and testing data, respectively, and predicted data. I used `classification_report`, `confusion_matrix`, and accuracy score for evaluation. The accuracy score was about 82%. This is my first end-to-end project, so I think this is very good, and I will try to apply different algorithms and ways to improve accuracy while learning more. To improve the model, I tried different estimators using a for loop; all the good ones are about 82%. So, then I saved the model using `joblib.dump()` and loading is done with `joblib.load()`.
 
 So, all the end-to-end project is done. So, I am very happy to finish it.
+
+So, the FastAPI wrapping, dockerizing and deployement part is in another repository. Here it is:
+https://github.com/xamidovasadbekdev-arch/StudentStressPredictorAPI/
